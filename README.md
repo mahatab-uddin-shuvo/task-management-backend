@@ -2,7 +2,7 @@
 1. git clone this repository. 
 2. composer install
 3. .env.example to copy this root directory and file name is change to .env
-4. Create database and this database name to write .env file DB_DATABASE= DbName, set DB_USERNAME=root if root password is here then write .env file.
+4. Create database and this database name to write .env file DB_DATABASE= DbName, set DB_USERNAME=root if root password is there then write .env file.
 5. Then run this command php artisan migrate
 6. php artisan queue:work --queue=mail
 7. php artisan serve
