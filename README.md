@@ -1,11 +1,11 @@
 ## How to run this Project 
-1. git clone this repository. 
-2. composer install
+1. Clone this repository - git clone https://github.com/mahatab-uddin-shuvo/task-management-backend.git
+2. Run command 'composer install' in the project directory
 3. .env.example to copy this root directory and file name is change to .env
 4. Create database and this database name to write .env file DB_DATABASE= DbName, set DB_USERNAME=root if root password is there then write .env file.
-5. Then run this command php artisan migrate
-6. php artisan queue:work --queue=mail
-7. php artisan serve
+5. Run command 'php artisan migrate'
+6. Run command 'php artisan queue:work --queue=mail' in another terminal
+7. Run command 'php artisan serve'
 8. IF your have send email then write email configuration in .env file.
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
