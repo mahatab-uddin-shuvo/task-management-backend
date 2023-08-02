@@ -1,3 +1,12 @@
+## How to run this Project 
+1. git clone this repository. 
+2. composer install
+3. .env.example to copy this root directory and file name is change to .env
+4. Create database and this database name to write .env file DB_DATABASE= DbName, set DB_USERNAME=root if root password is here then write .env file.
+5. Then run this command php artisan migrate
+6. php artisan queue:work --queue=mail
+7. php artisan serve
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
